@@ -863,7 +863,7 @@
             Controls.Add(label3);
             Controls.Add(panelRedondeado1);
             Name = "Enfermera";
-            Text = "Edad:";
+            Text = "git s";
             Load += Enfermera_Load;
             panelRedondeado1.ResumeLayout(false);
             panelRedondeado1.PerformLayout();
