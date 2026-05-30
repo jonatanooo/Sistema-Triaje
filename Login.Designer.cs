@@ -32,7 +32,6 @@
             parrotGradientPanel1 = new ReaLTaiizor.Controls.ParrotGradientPanel();
             label4 = new Label();
             pictureBox1 = new PictureBox();
-            button2 = new ReaLTaiizor.Controls.Button();
             panelRedondeado1 = new PanelRedondeado();
             txtcontraseña = new ReaLTaiizor.Controls.BigTextBox();
             txtusuario = new ReaLTaiizor.Controls.BigTextBox();
@@ -40,7 +39,6 @@
             pictureBox2 = new PictureBox();
             label2 = new Label();
             label1 = new Label();
-            button1 = new ReaLTaiizor.Controls.Button();
             parrotGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panelRedondeado1.SuspendLayout();
@@ -54,9 +52,7 @@
             parrotGradientPanel1.CompositingQualityType = System.Drawing.Drawing2D.CompositingQuality.HighSpeed;
             parrotGradientPanel1.Controls.Add(label4);
             parrotGradientPanel1.Controls.Add(pictureBox1);
-            parrotGradientPanel1.Controls.Add(button2);
             parrotGradientPanel1.Controls.Add(panelRedondeado1);
-            parrotGradientPanel1.Controls.Add(button1);
             parrotGradientPanel1.Dock = DockStyle.Fill;
             parrotGradientPanel1.InterpolationType = System.Drawing.Drawing2D.InterpolationMode.HighQualityBilinear;
             parrotGradientPanel1.Location = new Point(0, 0);
@@ -93,26 +89,6 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
-            // 
-            // button2
-            // 
-            button2.BackColor = Color.Transparent;
-            button2.BorderColor = Color.Black;
-            button2.EnteredBorderColor = Color.FromArgb(165, 37, 37);
-            button2.EnteredColor = Color.FromArgb(32, 34, 37);
-            button2.Font = new Font("Microsoft Sans Serif", 12F);
-            button2.Image = null;
-            button2.ImageAlign = ContentAlignment.MiddleLeft;
-            button2.InactiveColor = Color.DarkViolet;
-            button2.Location = new Point(466, 634);
-            button2.Name = "button2";
-            button2.PressedBorderColor = Color.DeepSkyBlue;
-            button2.PressedColor = Color.DeepSkyBlue;
-            button2.Size = new Size(120, 40);
-            button2.TabIndex = 5;
-            button2.Text = "Doctor";
-            button2.TextAlignment = StringAlignment.Center;
-            button2.Click += button2_Click;
             // 
             // panelRedondeado1
             // 
@@ -215,26 +191,6 @@
             label1.TabIndex = 0;
             label1.Text = "Login";
             // 
-            // button1
-            // 
-            button1.BackColor = Color.Transparent;
-            button1.BorderColor = Color.Beige;
-            button1.EnteredBorderColor = Color.FromArgb(165, 37, 37);
-            button1.EnteredColor = Color.FromArgb(32, 34, 37);
-            button1.Font = new Font("Microsoft Sans Serif", 12F);
-            button1.Image = null;
-            button1.ImageAlign = ContentAlignment.MiddleLeft;
-            button1.InactiveColor = Color.DarkViolet;
-            button1.Location = new Point(489, 563);
-            button1.Name = "button1";
-            button1.PressedBorderColor = Color.DeepSkyBlue;
-            button1.PressedColor = Color.DeepSkyBlue;
-            button1.Size = new Size(120, 40);
-            button1.TabIndex = 4;
-            button1.Text = "Enfermer@";
-            button1.TextAlignment = StringAlignment.Center;
-            button1.Click += button1_Click;
-            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -260,9 +216,7 @@
         private Label label1;
         private PictureBox pictureBox1;
         private Label label4;
-        private ReaLTaiizor.Controls.Button button1;
         private PictureBox pictureBox2;
-        private ReaLTaiizor.Controls.Button button2;
         private ReaLTaiizor.Controls.Button button3;
         private ReaLTaiizor.Controls.BigTextBox txtcontraseña;
         private ReaLTaiizor.Controls.BigTextBox txtusuario;
